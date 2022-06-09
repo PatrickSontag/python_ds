@@ -33,3 +33,7 @@ def two_oldest_ages(ages):
         elif age > old2:
             old2 = age
     return (old2, oldest)
+
+    # uniq_ages = set(ages)
+    # oldest = sorted(uniq_ages)[-2:]
+    # return tuple(oldest)
